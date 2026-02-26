@@ -179,3 +179,36 @@ section {
 .desc5 {
   color: #676d7e;
 }
+
+@media only screen and (min-width: 768px) {
+  main {
+    max-width: 40.438rem;
+  }
+
+  article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .wrap,
+  .group1,
+  .group2 {
+    display: contents;
+  }
+
+  .sec1 {
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right 31%;
+
+    grid-column: 1 / 3;
+  }
+
+  .sec4 {
+    grid-column: 1 / 3;
+  }
+
+  .sec5 {
+    grid-column: 1 / 3;
+  }
+}
