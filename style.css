@@ -1,0 +1,181 @@
+/* .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: #ffffff;
+  background-color: #e7eaee;
+}
+
+main {
+  max-width: 19.063rem;
+  width: 100%;
+  margin: 4.563rem auto;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+section {
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1.063rem;
+}
+
+.avatar {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.name-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.name {
+  margin: 0;
+  font-size: 0.813rem;
+  font-weight: 500;
+  line-height: 110%;
+}
+
+.graduate-status {
+  color: #ede4ff;
+  margin: 0;
+  font-size: 0.688rem;
+  font-weight: 500;
+  line-height: 110%;
+}
+
+.heading {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.desc {
+  margin: 0;
+  font-size: 0.813rem;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.group1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sec1 {
+  background-color: #733fc8;
+  color: #ffffff;
+}
+
+.pfp1 {
+  border: 2px solid #a775f1;
+}
+
+.desc1 {
+  color: #ede4ff;
+}
+
+.group2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sec2 {
+  background-color: #48556a;
+}
+
+.graduate-status2 {
+  color: #d1d5db;
+}
+
+.desc2 {
+  color: #e7eaee;
+}
+
+.sec3 {
+  background-color: #ffffff;
+}
+
+.name3 {
+  color: #48556a;
+}
+
+.graduate-status3 {
+  color: #676d7e;
+}
+
+.heading3 {
+  color: #48556a;
+}
+
+.desc3 {
+  color: #676d7e;
+}
+
+.sec4 {
+  background-color: #19202d;
+}
+
+.pfp4 {
+  border: 2px solid #a775f1;
+}
+
+.heading4 {
+  color: #cfcfcf;
+}
+
+.desc4 {
+  color: #e7eaee;
+}
+
+.sec5 {
+  background-color: #ffffff;
+}
+
+.name5 {
+  color: #48556a;
+}
+
+.graduate-status5 {
+  color: #d1d5db;
+}
+
+.heading5 {
+  color: #48556a;
+}
+
+.desc5 {
+  color: #676d7e;
+}
