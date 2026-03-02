@@ -1,11 +1,4 @@
-/* .attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-} */
-
+/* Global Styles */
 * {
   box-sizing: border-box;
 }
@@ -41,6 +34,7 @@ section {
   border-radius: 0.5rem;
 }
 
+/* Profile Styles */
 .profile {
   display: flex;
   align-items: center;
@@ -53,6 +47,7 @@ section {
   border-radius: 50%;
 }
 
+/* Name Styles */
 .name-sec {
   display: flex;
   flex-direction: column;
@@ -74,12 +69,14 @@ section {
   line-height: 110%;
 }
 
+/* Heading Styles */
 .heading {
   font-size: 1.25rem;
   font-weight: 600;
   line-height: 120%;
 }
 
+/* Description Styles */
 .desc {
   margin: 0;
   font-size: 0.813rem;
@@ -87,18 +84,21 @@ section {
   line-height: 140%;
 }
 
+/* Group 1 Styles */
 .group1 {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
+/* Section 1 Styles */
 .sec1 {
   background-color: #733fc8;
   color: #ffffff;
 }
 
-.pfp1 {
+.pfp1,
+.pfp4 {
   border: 2px solid #a775f1;
 }
 
@@ -106,17 +106,20 @@ section {
   color: #ede4ff;
 }
 
+/* Group 2 Styles */
 .group2 {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
+/* Section 2 Styles */
 .sec2 {
   background-color: #48556a;
 }
 
-.graduate-status2 {
+.graduate-status2,
+.graduate-status5 {
   color: #d1d5db;
 }
 
@@ -124,11 +127,14 @@ section {
   color: #e7eaee;
 }
 
-.sec3 {
+/* Section 3 Styles */
+.sec3,
+.sec5 {
   background-color: #ffffff;
 }
 
-.name3 {
+.name3,
+.name5 {
   color: #48556a;
 }
 
@@ -136,20 +142,19 @@ section {
   color: #676d7e;
 }
 
-.heading3 {
+.heading3,
+.heading5 {
   color: #48556a;
 }
 
-.desc3 {
+.desc3,
+.desc5 {
   color: #676d7e;
 }
 
+/* Section 4 Styles */
 .sec4 {
   background-color: #19202d;
-}
-
-.pfp4 {
-  border: 2px solid #a775f1;
 }
 
 .heading4 {
@@ -160,26 +165,17 @@ section {
   color: #e7eaee;
 }
 
-.sec5 {
-  background-color: #ffffff;
-}
+/* Attribution Styles */
 
-.name5 {
-  color: #48556a;
+/* .attribution {
+  font-size: 11px;
+  text-align: center;
 }
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
 
-.graduate-status5 {
-  color: #d1d5db;
-}
-
-.heading5 {
-  color: #48556a;
-}
-
-.desc5 {
-  color: #676d7e;
-}
-
+/* Tablet Styles */
 @media only screen and (min-width: 768px) {
   main {
     max-width: 40.438rem;
@@ -213,6 +209,7 @@ section {
   }
 }
 
+/* Desktop Styles */
 @media only screen and (min-width: 1440px) {
   main {
     max-width: 69.625rem;
@@ -229,10 +226,6 @@ section {
   }
 
   .sec1 {
-    background-image: url(./images/bg-pattern-quotation.svg);
-    background-repeat: no-repeat;
-    background-position: top right 31%;
-
     grid-column: 1 / 3;
   }
 
